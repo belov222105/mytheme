@@ -1,0 +1,36 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 18/10/2016 20:22
+  	*/
+
+@font-face {
+  font-family: "Flaticon-product-trigger";
+  src: url("Flaticon.eot");
+  src: url("Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.woocommerce-single-sidebar [class^="flaticon-"]:before, 
+.woocommerce-single-sidebar [class*=" flaticon-"]:before,
+.woocommerce-single-sidebar [class^="flaticon-"]:after, 
+.woocommerce-single-sidebar [class*=" flaticon-"]:after {   
+  font-family: Flaticon-product-trigger;
+font-style: normal;
+
+}
+
+.flaticon-commerce:before { content: "\f100"; }
+.flaticon-favorite-heart-button:before { content: "\f101"; }
+.flaticon-gesture:before { content: "\f102"; }
+.flaticon-like:before { content: "\f103"; }
+.flaticon-money:before { content: "\f104"; }
+.flaticon-pencil-box:before { content: "\f105"; }
+.flaticon-recycling:before { content: "\f106"; }
+.flaticon-shopping:before { content: "\f107"; }
+.flaticon-stopwatch:before { content: "\f108"; }
+.flaticon-transport:before { content: "\f109"; }

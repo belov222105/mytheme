@@ -1,0 +1,62 @@
+
+
+/**********************
+header 3 start
+*********************/
+.header-block-3, 
+.header-block-3 p {
+font-size: 13px;
+}
+.home .header-absolute, 
+.home .header-absolute p {
+color: #fff;
+}
+
+body:not(.pm_mobile).home .header-absolute a,
+body:not(.pm_mobile).home .header-absolute a:hover{
+   color:#fff;
+   padding: 10px;
+}
+body:not(.pm_mobile).home .header-absolute a:last-child{
+padding-right: 0;
+}
+.pm_mobile .prettyMenu a,
+.pm_mobile .prettyMenu a:hover{
+   color:#222;
+   padding: 10px;
+}
+
+/**********************
+header 3 finish
+*********************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
+}
+
+
+.title {
+font-size: 34px;
+}
+.subtitle {
+font-size: 18px;
+}
+
+body:not(.pm_mobile) ul.menu li ul:before {
+      border-bottom-color: #efefef !important;
+}
+
+.boxed-shadow-style body:not(.page-template-page-for-visual-composer) {
+    background: #f8f8f8;
+}
+
+.header-contact .phone {
+    vertical-align: middle;
+    font-size: 23px;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-weight: bold;
+}

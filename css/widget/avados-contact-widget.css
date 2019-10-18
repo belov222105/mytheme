@@ -1,0 +1,13 @@
+.avados-contact-widget  {
+
+}
+
+.avados-contact-widget i {width: 20%;padding-top: 4px;text-align: center;display: inline-block;margin-left: -15px;color: #a5a5a5;/* border: 1px solid; *//* border-radius: 50px; */}
+
+.avados-contact-widget p {width: 80%;}
+
+.avados-contact-widget  .avados-contact-widget-row {-ms-box-orient: horizontal;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;align-items: normal;flex-wrap: wrap;padding: 10px 0;/* margin-bottom: 5px; */border-top: 1px solid #f1f0f0;}
+
+.avados-contact-widget  .avados-contact-widget-row:first-child {
+border-top: 0;
+}

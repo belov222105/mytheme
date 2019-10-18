@@ -1,0 +1,117 @@
+.top-bar .fa{
+    vertical-align: middle;
+    }
+    
+    
+.sub_header {
+    padding: 10px 0;
+    font-size: 13px;
+	    border-top: 3px solid;
+}
+
+.sub_header p {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 10px 0 0;
+    display: inline-block;
+}
+.sub_header p:last-child {
+    padding: 0;
+}
+.sub_header .col-2 {
+    margin: 0;
+    padding: 0;
+}
+.sub_header .left_block {
+    text-align: left;
+}
+.sub_header .right_block {
+    text-align: right;
+}
+.sub_header .right_block i:nth-child(2n) {
+    margin-left: 30px;
+}
+.sub_header_dark {
+    background: #313131;
+    padding: 5px 0;
+    color: #fff;
+}
+.sub_header_dark .left_block {
+    text-align: left;
+    margin-top: 5px;
+}
+.sub_header_dark .right_block {
+    text-align: right;
+    margin-top: 5px;
+}
+.sub_header_dark .logo {
+    
+    color: #fff;
+    font-size: 22px;
+}
+.scroll_header.sub_header_dark.scrollMenu {
+    background: #222;
+}
+.sub_header_dark .fa {
+    font-size: 18px;
+    vertical-align: middle;
+}
+.sub_header_dark p {
+    margin: 0;
+    display: inline-block;
+}
+.sub_header_2 {
+    border: 0;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: 400;
+}
+.sub_header_2 .row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sub_header_2 .btn {
+    padding: 5px 10px;
+}
+.sub_header_2 .btn:last-child {
+    margin-left: 10px;
+}
+
+.sub_header.v7 {
+border-bottom: 1px solid;
+    padding-bottom: 15px;
+    font-size: 11px;
+}
+.sub_header ul {
+
+}
+.sub_header ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.sub_header .avados_sidebar_widget {
+padding-right: 15px; 
+}
+.sub_header .avados_sidebar_widget:last-child {
+padding-right: 0;
+}
+.header_v6 .sub_header {
+    position: relative;
+    float: right;
+    width: auto;
+    padding:10px 20px 10px 5px;
+    
+}
+.header_v6 .sub_header:after {
+     position: absolute;
+    left: -65px;
+    top: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0px 56px 65px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: inherit;
+    border-left-color: transparent;
+}

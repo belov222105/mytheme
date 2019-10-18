@@ -1,0 +1,21 @@
+.header-block-3 .prettyMenu {
+    width: auto;
+    }
+
+
+.home .header-absolute {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+
+
+.admin-bar .wrapp .header:not(.scroll_work){
+    top: 0px;
+}
+
+
+body:not(.home) .header-absolute-wrapp .scroll_header_holder.hidden {
+    display: block !important;
+}

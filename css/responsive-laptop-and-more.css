@@ -1,0 +1,23 @@
+/*** 
+
+====================================================================
+	Responsive Style from 1241 and more
+====================================================================
+
+ ***/
+ @media screen and (min-width: 1241px) {
+
+    .hide-on-laptop {
+        display: none;
+    }
+    
+    .container {
+    max-width: 1170px;
+    
+}
+
+
+}
+
+
+

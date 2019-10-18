@@ -1,0 +1,90 @@
+#popular-posts {counter-reset: listcounter;_list-style-type: decimal;margin-bottom: 35px;display: table;}
+
+#popular-posts li {
+list-style-type: none;
+position: relative;
+float: left;margin: 15px 0 0 0;width: 100%;height: 100%;padding: 0 0 15px 0;border-bottom:  1px solid #efefef;}
+#popular-posts li:last-child {
+    border: 0;
+}
+#popular-posts li:before {    
+    position: absolute;
+    text-align: center;
+    display: block;
+    top: -8px;
+    left: 8px;
+    z-index: 2;
+    font-size: 11px;
+    padding: 0;
+    line-height: 18px;
+    width: 17px;
+    height: 17px;
+    content: counter(listcounter) "";
+    counter-increment: listcounter;
+    background: #edbb5e;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    z-index: 9;
+    }
+    
+    .footer #popular-posts li:before {
+    left: -8px;
+    }
+
+#popular-posts .popular-post-image {width: 30%;
+float: left;
+position: relative;
+overflow: hidden;
+line-height: 0;
+}
+.sidebar #popular-posts .popular-post-image {width: 30%;
+padding-left: 15px;
+}
+/* #popular-posts .popular-post-image .popular-post-overlay {
+     position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 100;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+} */
+
+#popular-posts .popular-post-image:hover .popular-post-overlay {
+    opacity: 0.85;
+}
+#popular-posts .popular-post-right {
+   float: left;
+   width: 70%;
+    padding: 0 15px;
+}
+#popular-posts .popular-post-link {    
+color: #222;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+#popular-posts .popular-post-link:hover {
+opacity: 0.8;
+}
+#popular-posts .popular-post-view {
+color: #999;
+font-size: 13px;
+}
+#popular-posts .popular-post-view .fa {
+    padding-right: 8px;
+}
+

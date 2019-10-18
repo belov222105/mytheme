@@ -1,0 +1,13 @@
+
+.avados-social-icons {
+
+}
+.avados-social-icons a{
+    padding: 15px !important;
+    display: inline-block;
+}
+.avados-social-icons .fa{
+font-size: 14px;
+}
+
+.widget_avados_social_profile

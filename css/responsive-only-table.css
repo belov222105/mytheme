@@ -1,0 +1,70 @@
+/*** 
+
+====================================================================
+	Responsive Style from Table: Min-Width 768 - 1240
+====================================================================
+
+ ***/
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+
+
+.uptitle:before {
+    width: 30px;
+    }
+    
+.container{
+    max-width: 960px;
+}
+
+
+	.col-4 {
+		width: 50%;
+	}
+	
+	.col-4:nth-child(3) {
+		clear: both;
+	}
+    .hide-on-table {
+        display: none;
+    }
+   
+  
+  
+    .footer-copyright .col-2 {
+        width: 100%;
+    }
+    ul.social-network {
+        float: none;
+    }
+    .footer_up h4 {
+        font-size: 20px;
+    }
+    
+
+    .footer_up {
+        padding: 15px 0;
+        background: #333;
+    }
+  
+    .footer-copyright {
+        text-align: center;
+        border-top: 0px solid #777676;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    .copyright {
+        padding-bottom: 15px;
+    }
+    
+        .order-first {
+        order: -1;
+    }
+    .order-last {
+        order: 1;
+    }
+    
+    
+    
+    
+
+}

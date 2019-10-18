@@ -1,0 +1,161 @@
+
+/*** 
+
+====================================================================
+	Responsive Style from Mobile Max Width 767
+====================================================================
+
+ ***/
+ 
+@media only screen and (max-width: 767px) {
+
+
+    .blog-category .bloglist-img {
+        margin: 0 0 15px 0;
+        width: 100%;
+    }
+    .single-post-block {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    
+
+    .page-header .flex {
+        display: block;
+    }
+    .page-header .breadcrumbs {
+        margin-bottom: 20px !important;
+    }
+    .page-content {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .blog-category {
+        width: 100%;
+    }
+    .single-post-style {
+        width: 100%;
+    }
+    
+    .hide-on-mobile {
+        display: none;
+    }
+   
+   
+    .col-3 {
+        width: 100%;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 100%;
+    }
+ 
+    ul.social-network {
+        float: none;
+    }
+   
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+
+    #back-top {
+        bottom: 15px;
+        right: 15px;
+        padding: 3px;
+    }
+    
+    
+    
+    
+    .btn, .form-submit .submit, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce-product-search input[type="submit"], .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+        display: block;
+    margin: 0 auto 10px;
+    }
+    
+    
+    
+  html .no-padding-mobile {
+    padding: 0 !important;
+}
+
+/*** 
+
+====================================================================
+	Title style
+====================================================================
+
+***/
+.title, .font-title {
+    font-size: 9vh !important;
+    font-size: 25px  !important;
+}
+
+.shadow-image-double {
+padding-bottom: 40px;
+}
+.shadow-image-double figure{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.00);
+-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.00);
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.00);
+line-height: 0;
+}
+.mobile-col-3 .wpb_column{
+width: 33.3333%;
+float: left;
+padding-bottom: 30px;
+}
+
+.mobile-col-2 .wpb_column{
+width: 50%;
+float: left;
+padding-bottom: 30px;
+}
+
+.header .max-logo-width {
+width: 70%;
+}
+
+.single-product-top .single-product-image-wrap {
+    width: 100%;
+}
+
+.product-detail-wrapp {
+    padding-lefT: 0;
+        padding-top: 20px;
+}
+
+.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 100%;
+    }
+    
+} /* finish */

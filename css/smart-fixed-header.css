@@ -1,0 +1,42 @@
+body .wrapp .scroll_work {
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      transform: translateY(0);
+      transform: translate3d(0,0,0);
+      transition: .25s transform;
+      backface-visibility: hidden;
+      z-index: 999;
+
+      
+}
+body .wrapp .header.heads-up {
+  transform: translateY(-10rem);
+  transform: translate3d(0,-10rem,0);
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+body.admin-bar .wrapp .header.scroll_work {
+    top: 32px;
+}
+
+.header-absolute-wrapp {
+
+}
+
+.header-absolute.scroll_work .logo-main {
+    display:none;
+}
+
+.header-absolute.scroll_work .logo-alt {
+    display:  inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+body.admin-bar .wrapp .header {
+    top: 0px;
+}
+}
