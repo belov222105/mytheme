@@ -1,0 +1,85 @@
+-- v2.1 from 19.06.2019 --
+Smart fixed header
+Fix bugs
+Fix header layout 
+Fix TAC error 
+Delete 6-8 header version
+Add fullwidth header option without coding 
+
+
+
+
+-- v1.6 from --
+
+custom color schemes 
+fix widget title 
+add service style #3
+change button top style
+add template for single post: left sidebar\right sidebar\without sidebar 
+add support chanage body color from admin panel
+transference breadcrumbs in footer 
+fix nav style bag
+fix footer row bag
+fix bag time work widget
+fix woocommerce quantity style
+fix time work widget bags 
+change footer style
+fix Testimotional VS Addon bag
+supported unlimited addons for wpbakery pag builder plugin
+google font integration (change all fonts from avados admin panel )
+change homepage design
+fix logo bags
+fix mobile style bag from admin panel dashboard
+create visual compouser addon popup modal
+divided 1 i big css file on little (framework, responsive:mobile,table, laptop) etc
+add support change all buton on website in 1 clickc
+add service style #3
+add function search in menu
+add optimization style from visual composer 
+
+
+
+-- v1.5 from 16.02.2018
+
+Add Visual Composer Header Builder
+Fix bags
+Add Different Home Page Variation
+Add Blog Layout
+Add Performance settings
+
+ 
+-- v1.4 from 20.12.2017
+
+Add support Woocommerce
+Add support WPML
+Add support Revolution Slider
+fix menu bugs
+fix admin panel bugs
+add header style v4
+add header style v5
+add header style v6
+Add one click demo import
+New style from admin panel
+
+ 
+-- v1.3 from 13.11.2017
+fix menu bugs
+fix admin panel bugs
+add header style v3
+add demo install 1 click
+
+--- v1.2 from 10.11.2017
+add new header style v2
+add menu style 
+add new home page v3
+add new home page v4
+
+--- v1.1 from 8.11.2017
+add new header style v2
+fix mobile header style
+add menu style 
+change style form to action on first screen
+
+--- v1.0 from 6.11.2017 (created date )
+Make Table Responsive
+Fix Table Header
